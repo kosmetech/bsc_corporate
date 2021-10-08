@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/root"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_bottomsheet"
+            android:layout_marginTop="50dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/layout_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dashboard BSC"
+                android:layout_margin="@dimen/xlarge"
+                android:textSize="@dimen/medium"
+                android:textColor="#141414"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_gravity="bottom"/>
+
+            <EditText
+                android:id="@+id/filter_date"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/layout_title"
+                app:layout_constraintRight_toRightOf="parent"
+                android:background="@drawable/bg_filter"
+                android:layout_marginTop="@dimen/medium"
+                android:layout_marginRight="@dimen/xlarge"
+                android:padding="5dp"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="dd/mm/yyyy"
+                android:drawableRight="@drawable/ic_calendar"/>
+
+            <LinearLayout
+                app:layout_constraintTop_toBottomOf="@id/filter_date"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_menu"
+                    android:padding="@dimen/medium"
+                    android:layout_margin="@dimen/xlarge">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/medium"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Percentase"/>
+                        <TextView
+                            android:id="@+id/text_total"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20/100"/>
+
+                    </LinearLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentEnd="true">
+                        <com.timqi.sectorprogressview.ColorfulRingProgressView
+                            android:id="@+id/donut"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            app:bgColor="#e9e9e9"
+                            app:fgColorEnd="#ff4800"
+                            app:fgColorStart="#ff7c7c"
+                            app:percent="75"
+                            app:startAngle="0"
+                            app:strokeWidth="5dp"
+                            />
+                        <TextView
+                            android:id="@+id/txt_percentage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="100%"
+                            android:layout_gravity="center"/>
+                    </FrameLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="@dimen/medium"
+                    android:layout_marginRight="@dimen/medium"
+                    android:weightSum="2">
+                    <LinearLayout
+                        android:id="@+id/menu_finansial"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_menu"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/medium"
+                        android:orientation="vertical"
+                        android:padding="@dimen/medium"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/img_financial"
+                            android:layout_width="wrap_content"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="@dimen/large"
+                            android:src="@drawable/ic_financial_excellent"/>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/xxlarge">
+
+                            <TextView
+                                android:id="@+id/financial"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:textStyle="bold"
+                                android:text="Financial"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/txt_avg_financial"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/financial"
+                                android:layout_alignParentLeft="true"
+                                android:text="0/0"
+                                android:textSize="@dimen/font_medium" />
+
+                            <TextView
+                                android:id="@+id/txt_percentage_financial"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/financial"
+                                android:layout_alignParentRight="true"
+                                android:text="0%"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/menu_customer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_menu"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/medium"
+                        android:orientation="vertical"
+                        android:padding="@dimen/medium"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/img_customer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="@dimen/medium"
+                            android:src="@drawable/ic_customer_excellent"/>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/xxlarge">
+
+                            <TextView
+                                android:id="@+id/customer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/small"
+                                android:layout_alignParentLeft="true"
+                                android:textStyle="bold"
+                                android:text="Customer"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/txt_avg_customer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/customer"
+                                android:layout_alignParentLeft="true"
+                                android:text="0/0"
+                                android:textSize="@dimen/font_medium" />
+
+                            <TextView
+                                android:id="@+id/txt_percentage_customer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/customer"
+                                android:layout_alignParentRight="true"
+                                android:text="0%"
+
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="@dimen/medium"
+                    android:layout_marginRight="@dimen/medium"
+                    android:weightSum="2">
+                    <LinearLayout
+                        android:id="@+id/menu_bisnis"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_menu"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/medium"
+                        android:orientation="vertical"
+                        android:padding="@dimen/medium"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/img_internal_bisnis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="@dimen/medium"
+                            android:src="@drawable/ic_bisnis_excellent"/>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/xxlarge">
+
+                            <TextView
+                                android:id="@+id/bisnis"
+                                android:layout_marginTop="@dimen/small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="Internal \nBusiness"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/txt_avg_bisnis"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/bisnis"
+                                android:layout_alignParentLeft="true"
+                                android:text="0/0"
+                                android:textSize="@dimen/font_medium" />
+
+                            <TextView
+                                android:id="@+id/txt_percentage_bisnis"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/bisnis"
+                                android:layout_alignParentRight="true"
+                                android:text="0%"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/menu_learning"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_menu"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/medium"
+                        android:orientation="vertical"
+                        android:padding="@dimen/medium"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:id="@+id/img_learning"
+                            android:layout_width="wrap_content"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="@dimen/medium"
+                            android:src="@drawable/ic_learning_excellent"/>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/xxlarge">
+
+                            <TextView
+                                android:id="@+id/learning"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginTop="@dimen/small"
+                                android:text="Learning \n&amp; Growth"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/txt_avg_learning"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/learning"
+                                android:layout_alignParentLeft="true"
+                                android:text="0/0"
+                                android:textSize="@dimen/font_medium" />
+
+                            <TextView
+                                android:id="@+id/txt_percentage_learning"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/learning"
+                                android:layout_alignParentRight="true"
+                                android:text="0%"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/font_medium" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/loading"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_menu"
+            android:alpha="0.95"
+            android:text="Please wait..."
+            android:gravity="center"
+            android:textSize="@dimen/font_large"/>
+
+    </FrameLayout>
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

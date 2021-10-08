@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_bottomsheet.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_btn_logout.xml" value="0.3828125" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_customer.xml" value="0.3828125" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_finansial.xml" value="0.3828125" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_internal.xml" value="0.3828125" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_learningg.xml" value="0.3828125" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_menu.xml" value="0.3828125" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/layout/bottomsheet_grafik.xml" value="0.33" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/layout/fragment_akun.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/layout/fragment_cek_data.xml" value="0.3155535634244733" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/layout/fragment_home.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Kosme/Downloads/bsc_corporate/bsc_corporate/app/src/main/res/layout/item_data.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_bottomsheet.xml" value="0.3449074074074074" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_finansial.xml" value="0.25277777777777777" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_internal.xml" value="0.19675925925925927" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_learningg.xml" value="0.19675925925925927" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/bg_menu.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/ic_bisnis_enough.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/ic_bisnis_excellent.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/ic_bisnis_good_enough.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/ic_bisnis_poor.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/ic_bisnis_very_poor.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/ic_mata.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/ic_paru.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/drawable/spinner.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/layout/activity_grafik.xml" value="0.33055555555555555" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/layout/activity_pdf_view.xml" value="0.16102077687443542" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/layout/activity_root.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/layout/dialog_grafik.xml" value="0.1" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/layout/fragment_cek_data.xml" value="0.24319419237749546" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/layout/item_data.xml" value="0.33055555555555555" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/menu/navigation.xml" value="0.33055555555555555" />
+        <entry key="..\:/Users/User/Pictures/diah/bsc_corporate/bsc_corporate/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3449074074074074" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

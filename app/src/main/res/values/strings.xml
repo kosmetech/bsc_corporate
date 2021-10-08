@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">bsc_corporate</string>
+
+    <string-array name="filter_category">
+        <item>All</item>
+        <item>FINANCIAL</item>
+        <item>CUSTOMER</item>
+        <item>INTERNAL BISNIS</item>
+        <item>LEARNING &amp; GROWTH</item>
+    </string-array>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/medium"
+    android:layout_margin="@dimen/medium"
+    android:background="@drawable/bg_customer">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Finansial"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00-00-0000 00.00.00"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:layout_below="@id/txt_title"/>
+
+    <ImageView
+        android:id="@+id/btn_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_download_button" />
+
+    <TextView
+        android:id="@+id/txt_nilai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_time"
+        android:layout_marginTop="50dp"
+        android:text="Nilai"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/txt_nilai_angka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_nilai"
+        android:text="273"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_percentage"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_time"
+        android:layout_alignParentRight="true"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="50dp"
+        android:text="100%"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_large"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txt_percentage_info"
+        android:layout_width="200dp"
+        android:textAlignment="textEnd"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_percentage"
+        android:layout_alignParentRight="true"
+        android:text="Net Profit"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
